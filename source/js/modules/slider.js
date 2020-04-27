@@ -1,4 +1,4 @@
-import Swiper from "../vendor/swiper";
+import Swiper from "swiper";
 
 export default () => {
   let storySlider;
