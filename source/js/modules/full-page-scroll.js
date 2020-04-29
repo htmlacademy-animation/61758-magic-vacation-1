@@ -43,10 +43,10 @@ export default class FullPageScroll {
   changeVisibilityDisplay() {
     this.screenElements.forEach((screen) => {
       screen.classList.add(`screen--hidden`);
-      screen.classList.remove('active');
+      screen.classList.remove(`active`);
     });
     this.screenElements[this.activeScreen].classList.remove(`screen--hidden`);
-    this.screenElements[this.activeScreen].classList.add('active');
+    this.screenElements[this.activeScreen].classList.add(`active`);
   }
 
   changeActiveMenuItem() {
@@ -70,7 +70,7 @@ export default class FullPageScroll {
   }
 
   reCalculateActiveScreenPosition(delta) {
-    if(delta > 0){
+    if (delta > 0) {
       this.activeScreen = Math.min(this.screenElements.length - 1, ++this.activeScreen);
     } else {
       this.activeScreen = Math.max(0, --this.activeScreen);
