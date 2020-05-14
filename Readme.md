@@ -1,6 +1,8 @@
 # Личный проект «Таинственный отпуск» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Е.](https://up.htmlacademy.ru/animation/1/user/61758).
+Тестит
+
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
